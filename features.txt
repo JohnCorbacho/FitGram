@@ -1,0 +1,45 @@
+# features.txt
+
+## Feature 1: Therapy with Philosopher AI
+
+A lighthearted, whimsical feature where users can have a short, supportive therapy-style conversation with an AI representing famous philosophers.
+Users select a philosopher (e.g., Marcus Aurelius, Nietzsche, Socrates, Confucius, Karl Marx) and chat with them.
+Conversations are short and capped at ~5 minutes (6–8 messages). 
+Users can switch philosophers mid-conversation, and the new philosopher acknowledges the switch and continues based on the existing conversation history.
+
+### Tasks:
+- [✓] Design paper prototype showing full conversation flow, philosopher selection, switching, session end, and clear conversation option
+- [✓] Draft prompt templates and personalities for each philosopher (tone guide)
+- [✓] Build user flow: philosopher selection and session start
+- [✓] Implement conversation logic with chat history memory
+- [✓] Implement conversation length limit (~6–8 messages)
+- [✓] Add philosopher switch function, maintain conversation history
+- [✓] Build session end screen with clear call to action (Start New Session)
+- [✓] Test with at least two users for usability
+- [✓] Update prototype after testing (remove prompt counter, add switch confirmation, adjust button visibility)
+- [✓] Add confirmation message when philosopher switch occurs
+- [✓] Prepare final GitHub issues and close tasks
+
+---
+
+## Feature 2: Weather-Based Workout Advisor
+
+A dynamic, engaging feature where users receive personalized workout recommendations tailored to their city's current weather conditions.
+Users enter their city, and the feature instantly analyzes real-time weather data (temperature, precipitation, humidity, etc.) to suggest suitable workout types (e.g., outdoor run, yoga at home, indoor cycling, or swimming).
+Suggestions include brief explanations and helpful tips relevant to the weather, enhancing motivation and ensuring optimal comfort during workouts.
+
+### Tasks:
+- [✓] Create initial prototype showing city input, weather fetching, and workout recommendation flow
+- [✓] Define workout categories tied explicitly to weather conditions
+- [✓] Build integration for real-time weather data retrieval (OpenWeather API)
+- [✓] Implement recommendation logic linking weather conditions to workout types
+- [✓] Design friendly, informative UI to clearly display workout suggestions and quick tips
+- [✓] Add refresh/update capability for current weather check and recommendation update
+- [✓] Implement graceful error handling (invalid city input, unavailable weather data)
+- [✓] Test feature usability with at least two users
+- [✓] Update prototype based on user feedback (clearer city input field, enhanced tip readability)
+- [✓] Add visual confirmation for weather data refresh
+- [✓] Prepare final GitHub issues and close tasks
+
+
+---

@@ -1,0 +1,6 @@
+streamlit
+vertexai
+python-dotenv
+db-dtypes
+google-cloud-bigquery-storage
+openai>=1.0.0
